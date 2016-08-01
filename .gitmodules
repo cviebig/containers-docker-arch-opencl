@@ -1,0 +1,21 @@
+[submodule "arch-base"]
+	path = arch-base
+	url = https://github.com/cviebig/docker-arch-base.git
+[submodule "arch-build"]
+	path = arch-build
+	url = https://github.com/cviebig/docker-arch-build.git
+[submodule "arch-build-ocl"]
+	path = arch-build-ocl
+	url = https://github.com/cviebig/docker-arch-build-ocl.git
+[submodule "arch-build-ocl-amd"]
+	path = arch-build-ocl-amd
+	url = https://github.com/cviebig/docker-arch-build-ocl-amd.git
+[submodule "arch-build-ocl-catalyst"]
+	path = arch-build-ocl-catalyst
+	url = https://github.com/cviebig/docker-arch-build-ocl-catalyst.git
+[submodule "arch-build-ocl-intel"]
+	path = arch-build-ocl-intel
+	url = https://github.com/cviebig/docker-arch-build-ocl-intel.git
+[submodule "arch-build-ocl-nvidia"]
+	path = arch-build-ocl-nvidia
+	url = https://github.com/cviebig/docker-arch-build-ocl-nvidia.git
