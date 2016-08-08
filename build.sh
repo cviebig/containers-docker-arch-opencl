@@ -2,7 +2,7 @@
 set -e
 tag=$(date +%F)
 cd arch-base
-docker build -t cviebig/arch-base:${tag} .
+docker build --no-cache=true -t cviebig/arch-base:${tag} .
 docker tag cviebig/arch-base:${tag} cviebig/arch-base:latest
 cd ../arch-build
 docker build -t cviebig/arch-build:${tag} .
@@ -22,4 +22,3 @@ docker tag cviebig/arch-build-ocl-intel:${tag} cviebig/arch-build-ocl-intel:late
 cd ../arch-build-ocl-nvidia
 docker build -t cviebig/arch-build-ocl-nvidia:${tag} .
 docker tag cviebig/arch-build-ocl-nvidia:${tag} cviebig/arch-build-ocl-nvidia:latest
-
